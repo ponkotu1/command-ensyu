@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ensyu {
+public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("èº«é•·(m):");
@@ -9,6 +9,6 @@ public class Ensyu {
         double weight = sc.nextDouble();
         double a = heigth * heigth;
         double BMI = weight / a;
-        System.out.println("ã‚ãªãŸã®BMIå€¤ã¯"+((Math.floor(BMI * 100)) /"‚Å‚·B");
+        System.out.println("‚ ‚È‚½‚ÌBMI’l‚Í"+((Math.floor(BMI * 100)) / 100)+"‚Å‚·B");
     }
 }
